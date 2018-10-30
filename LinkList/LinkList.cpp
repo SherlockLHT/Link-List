@@ -203,7 +203,6 @@ ListNode* InsertHead(ListNode* p_head, int value)
 
 void ReleaseLinkList(ListNode* p_head)
 {
-	ListNode* next = p_head;
 	while (p_head != NULL)
 	{
 		ListNode* current = p_head;
